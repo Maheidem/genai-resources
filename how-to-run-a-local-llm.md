@@ -7,11 +7,11 @@
 3. [Prerequisites](#prerequisites)
    - [Hardware Requirements](#hardware-requirements)
    - [Software Requirements](#software-requirements)
-4. [Installing LLM Studio](#installing-llm-studio)
+4. [Installing LM Studio](#installing-llm-studio)
    - [For Windows](#for-windows)
    - [For macOS](#for-macos)
    - [For Linux](#for-linux)
-5. [Downloading and Using Models in LLM Studio](#downloading-and-using-models-in-llm-studio)
+5. [Downloading and Using Models in LM Studio](#downloading-and-using-models-in-llm-studio)
    - [Understanding Model Sizes and Quantization](#understanding-model-sizes-and-quantization)
    - [Downloading a Model](#downloading-a-model)
    - [Interacting with the Model](#interacting-with-the-model)
@@ -20,8 +20,8 @@
    - [Running the Web UI](#running-the-web-ui)
    - [Accessing the Interface](#accessing-the-interface)
 7. [Configuring the Interface to Use Local Models](#configuring-the-interface-to-use-local-models)
-   - [Starting the LLM Studio Server](#starting-the-llm-studio-server)
-   - [Connecting the Interface to LLM Studio](#connecting-the-interface-to-llm-studio)
+   - [Starting the LM Studio Server](#starting-the-llm-studio-server)
+   - [Connecting the Interface to LM Studio](#connecting-the-interface-to-llm-studio)
 8. [Using OpenAI's API with the Interface](#using-openais-api-with-the-interface)
    - [Obtaining an OpenAI API Key](#obtaining-an-openai-api-key)
    - [Configuring the Interface to Use OpenAI Models](#configuring-the-interface-to-use-openai-models)
@@ -60,44 +60,44 @@ Running LLMs locally offers several benefits:
 
 - **Operating System**: Windows, macOS, or Linux
 - **Docker**: For setting up the ChatGPT-like interface
-- **LLM Studio**: Application to download and run models locally
+- **LM Studio**: Application to download and run models locally
 - **Internet Connection**: For downloading software and models
 
-## Installing LLM Studio
+## Installing LM Studio
 
-LLM Studio is a versatile tool that allows you to download and run language models locally. It supports Windows, macOS, and Linux.
+LM Studio is a versatile tool that allows you to download and run language models locally. It supports Windows, macOS, and Linux.
 
 ### For Windows
 
-1. **Download LLM Studio**:
-   - Visit the [LLM Studio website](https://lmstudio.ai/download) (replace with actual URL).
+1. **Download LM Studio**:
+   - Visit the [LM Studio website](https://lmstudio.ai/download) (replace with actual URL).
    - Click on the Windows download link.
 
-2. **Install LLM Studio**:
+2. **Install LM Studio**:
    - Run the downloaded installer.
    - Follow the on-screen instructions to complete the installation.
 
 ### For macOS
 
-1. **Download LLM Studio**:
-   - Visit the [LLM Studio website](https://lmstudio.ai/download).
+1. **Download LM Studio**:
+   - Visit the [LM Studio website](https://lmstudio.ai/download).
    - Click on the macOS download link.
 
-2. **Install LLM Studio**:
+2. **Install LM Studio**:
    - Open the downloaded `.dmg` file.
-   - Drag the LLM Studio app to your Applications folder.
+   - Drag the LM Studio app to your Applications folder.
 
 ### For Linux
 
-1. **Download LLM Studio**:
-   - Visit the [LLM Studio website](https://lmstudio.ai/download).
+1. **Download LM Studio**:
+   - Visit the [LM Studio website](https://lmstudio.ai/download).
    - Download the Linux installer or use the provided terminal commands.
 
-2. **Install LLM Studio**:
+2. **Install LM Studio**:
    - Open a terminal.
    - Navigate to the downloaded file.
 
-## Downloading and Using Models in LLM Studio
+## Downloading and Using Models in LM Studio
 
 ### Understanding Model Sizes and Quantization
 
@@ -106,7 +106,7 @@ LLM Studio is a versatile tool that allows you to download and run language mode
 
 ### Downloading a Model
 
-1. **Open LLM Studio**.
+1. **Open LM Studio**.
 2. **Navigate to the 'Discover' Tab**:
    - Here, you can browse available models.
 
@@ -173,14 +173,14 @@ To enhance your experience, you can set up a web interface similar to ChatGPT us
 
 ## Configuring the Interface to Use Local Models
 
-### Starting the LLM Studio Server
+### Starting the LM Studio Server
 
-1. **Open LLM Studio**.
+1. **Open LM Studio**.
 2. **Go to the 'Developer' Tab**:
    - Click on **Start Server**.
    - Enable **Serve Local Network**.
 
-### Connecting the Interface to LLM Studio
+### Connecting the Interface to LM Studio
 
 1. **In the Web Interface**, click on the **Settings** icon (usually a gear icon).
 2. **Navigate to 'Admin' > 'Connections'**.
@@ -244,7 +244,7 @@ To enhance your experience, you can set up a web interface similar to ChatGPT us
 
 ### Downloading and Using Advanced Models
 
-1. **Search for the Model in LLM Studio**:
+1. **Search for the Model in LM Studio**:
    - Go to the **Discover** tab.
    - Search for models like `Qwen 2.5 Coder`.
 
@@ -258,7 +258,7 @@ To enhance your experience, you can set up a web interface similar to ChatGPT us
 
 4. **Load and Use the Model**:
    - As before, load the model in the **Chat** tab.
-   - Interact with it through LLM Studio or the web interface.
+   - Interact with it through LM Studio or the web interface.
 
 5. **Experiment with Different Quantizations**:
    - Test lower precision versions to fit within your hardware limits.
@@ -266,11 +266,11 @@ To enhance your experience, you can set up a web interface similar to ChatGPT us
 
 ## Conclusion
 
-Running large language models locally empowers you with greater control over your data, cost savings, and the flexibility to experiment with different models. While hardware limitations may pose challenges, tools like LLM Studio and Docker make it accessible for many users. Whether you're seeking privacy, customization, or just exploring AI capabilities, this guide provides the steps to get you started.
+Running large language models locally empowers you with greater control over your data, cost savings, and the flexibility to experiment with different models. While hardware limitations may pose challenges, tools like LM Studio and Docker make it accessible for many users. Whether you're seeking privacy, customization, or just exploring AI capabilities, this guide provides the steps to get you started.
 
 ## Additional Resources
 
-- **LLM Studio Documentation**: [Link to official docs]
+- **LM Studio Documentation**: [[Link to official docs](https://lmstudio.ai/docs)]
 - **Docker Documentation**: [https://docs.docker.com/](https://docs.docker.com/)
 - **OpenAI API Pricing**: [https://openai.com/pricing](https://openai.com/pricing)
 - **Community Forums**: Join AI and ML communities for support and discussions.
