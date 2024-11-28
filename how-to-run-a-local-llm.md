@@ -1,4 +1,3 @@
-%md
 # How to Run Large Language Models Locally: A Comprehensive Guide
 
 ## Table of Contents
